@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rdFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <RadioButton
+                android:id="@+id/rdButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="포 보" />
+
+            <RadioButton
+                android:id="@+id/rdButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="붕보" />
+
+            <RadioButton
+                android:id="@+id/rdButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="월남쌈(고이꾸온)" />
+
+            <RadioButton
+                android:id="@+id/rdButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="스프링롤(짜조)" />
+
+            <RadioButton
+                android:id="@+id/rdButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="반쎄오" />
+
+            <RadioButton
+                android:id="@+id/rdButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="연꽃볶음밥(콤 센)" />
+
+            <RadioButton
+                android:id="@+id/rdButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="똠헙느억즈어" />
+
+            <RadioButton
+                android:id="@+id/rdButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="반미" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
